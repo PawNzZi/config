@@ -14,8 +14,7 @@ delete array[1].button;
 let array2 = array[2].items ;
 let newArray2 = [];
 for(let i = 0 ;i < array2.length;i++){
-    if(array2[i].title == '我的钱包' || array2[i].title == '充能领福利'
-         || array2[i].title == '社区中心'){
+    if(array2[i].title == '我的钱包' || array2[i].title == '社区中心'){
             newArray2.push(array2[i]);
     }
 }

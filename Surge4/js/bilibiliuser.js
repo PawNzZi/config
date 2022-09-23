@@ -9,6 +9,7 @@ for(let i = 0 ;i < array1.length;i++){
     }
 }
 array[1].items = newArray1;
+delete array[1].button;
 //推荐服务
 let array2 = array[2].items ;
 let newArray2 = [];

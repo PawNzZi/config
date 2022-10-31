@@ -24,7 +24,7 @@ http-response ^https:\/\/(api\.revenuecat\.com\/v\d\/subscribers|vsco\.co\/api\/
 京东去开屏广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 
 # > 酷我音乐VIP vip1.kuwo.cn,
-酷我音乐解锁SVIP = type=http-response,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/Kuwo.js,script-update-interval=0,max-size=0
+# 酷我音乐解锁SVIP = type=http-response,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/Kuwo.js,script-update-interval=0,max-size=0
 
 # > 美图秀秀(2022.01.17) 解锁高级V（包括但不限于：付费海报模板、高级滤镜、高级素材等），无须登陆! api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,
 美图秀秀(2022.01.17) = type=http-response,pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/,requires-body=1,script-path=https://raw.githubusercontent.com/28413761/QX/main/jiaoben/MeiTuXiuXiu.js,script-update-interval=0,max-size=0
@@ -54,4 +54,4 @@ http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,m
 有道云笔记VIP = type=http-response,  https://note.youdao.com/yws/(mapi/payment|api/self) script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js, requires-body=true, timeout=10, tag=有道云笔记VIP
 
 [MITM]
-hostname =  %INSERT% boxjs.com,gab.122.gov.cn,wallet.95516.com,api.pinduoduo.com,notability.com,api.vuevideo.net,vsco.co, api.revenuecat.com,*.baidu.com,api.m.jd.com,vip1.kuwo.cn,weather-data.apple.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,wmapi.meituan.com,ap*.intsig.net,edith.xiaohongshu.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,note.youdao.com,buy.itunes.apple.com
+hostname =  %INSERT% boxjs.com,gab.122.gov.cn,wallet.95516.com,api.pinduoduo.com,notability.com,api.vuevideo.net,vsco.co, api.revenuecat.com,*.baidu.com,api.m.jd.com,weather-data.apple.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,wmapi.meituan.com,ap*.intsig.net,edith.xiaohongshu.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,note.youdao.com,buy.itunes.apple.com

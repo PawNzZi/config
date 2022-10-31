@@ -21,6 +21,6 @@
 
 [Script]
 Bilibili-tab = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab,requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/PawNzZi/config/main/Surge4/js/bilibilibottom.js
-
+Bilibili-index = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/PawNzZi/config/main/Surge5/script/biliblibIndexAds.js
 [MITM]
 hostname = %APPEND% app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com

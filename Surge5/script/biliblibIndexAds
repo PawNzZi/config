@@ -1,6 +1,8 @@
 
 let app = JSON.parse($response.body);
+console.log(app);
 let array = app.data.items;
+console.log(array);
 let newArray = array.filter(function(item){
     return item.card_type === "small_cover_v2";
 })

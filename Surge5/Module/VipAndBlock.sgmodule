@@ -54,4 +54,4 @@ http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,m
 有道云笔记VIP = type=http-response,  https://note.youdao.com/yws/(mapi/payment|api/self) script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js, requires-body=true, timeout=10, tag=有道云笔记VIP
 
 [MITM]
-hostname =  %INSERT% boxjs.com,gab.122.gov.cn,wallet.95516.com,api.pinduoduo.com,notability.com,api.vuevideo.net,vsco.co, api.revenuecat.com,*.baidu.com,api.m.jd.com,weather-data.apple.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,wmapi.meituan.com,ap*.intsig.net,edith.xiaohongshu.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,note.youdao.com,buy.itunes.apple.com
+hostname =  %INSERT% boxjs.com,wallet.95516.com,notability.com,api.vuevideo.net,vsco.co, api.revenuecat.com,*.baidu.com,api.m.jd.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,wmapi.meituan.com,ap*.intsig.net,edith.xiaohongshu.com,api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,mp.weixin.qq.com,note.youdao.com,buy.itunes.apple.com

@@ -1,4 +1,5 @@
 
+console.log("开始");
 let data = JSON.parse($response.body);
 
 if (data.hasOwnProperty('vip_section')) {

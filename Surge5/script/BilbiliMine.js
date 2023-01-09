@@ -26,4 +26,5 @@ if (data.hasOwnProperty('sections_v2')) {
     }
     data.sections_v2 = array;
 }
+console.log(array);
 $done({ body: JSON.stringify(data) });

@@ -4,24 +4,24 @@
 [URL Rewrite]
 
 #详情页广告
-^https?:\/\/114\.80\.99\.82\/ting\/direct_v2\/,REJECT
-^https?:\/\/114\.80\.99\.82\/ting\/direct\/,REJECT
+^https?:\/\/114\.80\.99\.82\/ting\/direct_v2\/ - REJECT
+^https?:\/\/114\.80\.99\.82\/ting\/direct\/ - REJECT
 #重新打开app时广告
-^https?:\/\/114\.80\.99\.86\/ting\/loading\/?,REJECT
-^https?:\/\/114\.80\.99\.89\/discovery-firstpage\/first\/request\/,REJECT
+^https?:\/\/114\.80\.99\.86\/ting\/loading\/? - REJECT
+^https?:\/\/114\.80\.99\.89\/discovery-firstpage\/first\/request\/ - REJECT
 #其他疑似广告
-^https?:\/\/114\.80\.99\.89\/app-skin-service\/skin\/setting\/info\/,REJECT
-^https?:\/\/mermaid\.ximalaya\.com\/config\/ts\/v2\/tracks\/cdn\/1\/ios\?v=v2$,REJECT
-^https?:\/\/mobile\.ximalaya\.com\/football-portal\/diff2\/batch\?,REJECT
-^https?:\/\/mermaid\.ximalaya\.com\/config\/ts\/v2\/tracks\/cdn\/1\/ios\?v=v2$,REJECT
-^https?:\/\/mobile\.ximalaya\.com\/mobile-resource-position\/resource\/advertising\/free\/v2$,REJECT
-^https?:\/\/180\.153\.250\.240\/ting\/home\/ts,REJECT
-^https?:\/\/180\.153\.250\.241\/api\/v1\/adRealTime$,REJECT 
-^https?:\/\/mobile\.ximalaya\.com\/firework-portal\/v8\/sync\?appId=1$,REJECT
-^https?:\/\/mobile\.ximalaya\.com\/mobile\/app\/innerPushConfig\/list\/ts,REJECT
-^https?:\/\/mres\.ximalaya\.com\/mobile-template-manager-portal\/check\/template$,REJECT
-^https?:\/\/mobile\.ximalaya\.com\/abtest-portal\/sync\/,REJECT
-^https?:\/\/mobile\.ximalaya\.com\/mobile_switch_ios\/,REJECT
+^https?:\/\/114\.80\.99\.89\/app-skin-service\/skin\/setting\/info\/ - REJECT
+^https?:\/\/mermaid\.ximalaya\.com\/config\/ts\/v2\/tracks\/cdn\/1\/ios\?v=v2$ - REJECT
+^https?:\/\/mobile\.ximalaya\.com\/football-portal\/diff2\/batch\? - REJECT
+^https?:\/\/mermaid\.ximalaya\.com\/config\/ts\/v2\/tracks\/cdn\/1\/ios\?v=v2$ - REJECT
+^https?:\/\/mobile\.ximalaya\.com\/mobile-resource-position\/resource\/advertising\/free\/v2$ - REJECT
+^https?:\/\/180\.153\.250\.240\/ting\/home\/ts - REJECT
+^https?:\/\/180\.153\.250\.241\/api\/v1\/adRealTime$ - REJECT 
+^https?:\/\/mobile\.ximalaya\.com\/firework-portal\/v8\/sync\?appId=1$ - REJECT
+^https?:\/\/mobile\.ximalaya\.com\/mobile\/app\/innerPushConfig\/list\/ts - REJECT
+^https?:\/\/mres\.ximalaya\.com\/mobile-template-manager-portal\/check\/template$ - REJECT
+^https?:\/\/mobile\.ximalaya\.com\/abtest-portal\/sync\/ - REJECT
+^https?:\/\/mobile\.ximalaya\.com\/mobile_switch_ios\/ - REJECT
 
 [MITM]
 hostname = %APPEND% 114.80.99.82,114.80.99.86,114.80.99.89,180.153.250.240,180.153.250.241,mermaid.ximalaya.com,mobile.ximalaya.com,mres.ximalaya.com

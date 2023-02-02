@@ -4,11 +4,11 @@
 [Rule]
 
 #详情页广告
-URL-REGEX,^https?:\/\/((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}\/ting\/direct_v2\/,REJECT
-URL-REGEX,^https?:\/\/((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}\/ting\/direct\/,REJECT
+URL-REGEX,^https:\/\/114\.80\.99\.82\/ting\/direct_v2\/,REJECT
+URL-REGEX,^https:\/\/114\.80\.99\.82\/ting\/loading\/,REJECT
 #重新打开app时广告
-URL-REGEX,^https?:\/\/((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}\/ting\/loading\/?,REJECT
-URL-REGEX,^https?:\/\/((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}\/discovery-firstpage\/first\/request\/,REJECT
+URL-REGEX,^https:\/\/114\.80\.99\.86\/ting\/loading\/ting\/loading\/?,REJECT
+URL-REGEX,^https:\/\/114\.80\.99\.89\/discovery-firstpage\/first\/request\/,REJECT
 #其他疑似广告
 URL-REGEX,^https?:\/\/114\.80\.99\.89\/app-skin-service\/skin\/setting\/info\/,REJECT
 URL-REGEX,^https?:\/\/mermaid\.ximalaya\.com\/config\/ts\/v2\/tracks\/cdn\/1\/ios\?v=v2$,REJECT

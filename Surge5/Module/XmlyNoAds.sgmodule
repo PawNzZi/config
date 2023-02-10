@@ -22,6 +22,6 @@ URL-REGEX,^https?:\/\/mobile\.ximalaya\.com\/mobile_switch_ios\/,REJECT
 弹屏广告 = type=http-response,requires-body=1,max-size=0,timeout=10,pattern=^http:\/\/mobile\.ximalaya\.com\/firework-portal\/v9\/sync\?appId=1$,script-path=https://raw.githubusercontent.com/PawNzZi/config/main/Surge5/script/XmlyDeletePlans.js
 
 # > Banner广告 mobwsa.ximalaya.com
-Banner广告 = type=http-response,requires-body=1,max-size=0,timeout=10,pattern=^https?:\/\/mobwsa\.ximalaya\.com\/focus-mobile\/focusPic\/info\?,script-path=https://raw.githubusercontent.com/PawNzZi/config/main/Surge5/script/XmlyNoBannerAds.js
+Banner广告 = type=http-response,requires-body=1,max-size=0,timeout=10,pattern=^https?:\/\/mobwsa\.ximalaya\.com\/focus-mobile\/focusPic\/info\?,script-path=https://raw.githubusercontent.com/PawNzZi/config/main/Surge5/script/XmlyNoBannerAd.js
 [MITM]
 hostname = %APPEND% mermaid.ximalaya.com,mobile.ximalaya.com,mres.ximalaya.com,mobwsa.ximalaya.com

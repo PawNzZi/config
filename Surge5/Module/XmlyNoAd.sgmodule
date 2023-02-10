@@ -16,7 +16,7 @@ URL-REGEX,^https?:\/\/mobile\.ximalaya\.com\/mobile\/app\/innerPushConfig\/list\
 URL-REGEX,^https?:\/\/mres\.ximalaya\.com\/mobile-template-manager-portal\/check\/template$,REJECT
 URL-REGEX,^https?:\/\/mobile\.ximalaya\.com\/abtest-portal\/sync\/,REJECT
 URL-REGEX,^https?:\/\/mobile\.ximalaya\.com\/mobile_switch_ios\/,REJECT
-#URL-REGEX,^https?:\/\/mobwsa\.ximalaya\.com\/focus-mobile\/focusPic\/info\?,REJECT
+## URL-REGEX,^https?:\/\/mobwsa\.ximalaya\.com\/focus-mobile\/focusPic\/info\?,REJECT
 
 [Script]
 # > 弹屏广告 mobile.ximalaya.com

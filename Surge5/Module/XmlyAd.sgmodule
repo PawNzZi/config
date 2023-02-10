@@ -21,4 +21,4 @@ URL-REGEX,^https?:\/\/mobwsa\.ximalaya\.com\/focus-mobile\/focusPic\/info\?,REJE
 # > 弹屏广告 mobile.ximalaya.com,
 弹屏广告 = type=http-response,requires-body=1,max-size=0,timeout=10,pattern=^http:\/\/mobile\.ximalaya\.com\/firework-portal\/v9\/sync\?appId=1$,script-path=https://raw.githubusercontent.com/PawNzZi/config/main/Surge5/script/XmlyDeletePlans.js
 [MITM]
-hostname = %APPEND% mermaid.ximalaya.com,mobile.ximalaya.com,mres.ximalaya.com
+hostname = %APPEND% mermaid.ximalaya.com,mobile.ximalaya.com,mres.ximalaya.com,mobwsa.ximalaya.com

@@ -17,6 +17,7 @@ URL-REGEX,^https?:\/\/mres\.ximalaya\.com\/mobile-template-manager-portal\/check
 URL-REGEX,^https?:\/\/mobile\.ximalaya\.com\/abtest-portal\/sync\/,REJECT
 URL-REGEX,^https?:\/\/mobile\.ximalaya\.com\/mobile_switch_ios\/,REJECT
 URL-REGEX,^https?:\/\/mwsa\.ximalaya\.com\/anchor-sell\/track\/v2\/,REJECT
+URL-REGEX,^https?:\/\/mobwsa.ximalaya.com\/mobile-playpage\/view\/[0-9]{1,9}\/,REJECT
 
 [Script]
 # > 弹屏广告 mobile.ximalaya.com

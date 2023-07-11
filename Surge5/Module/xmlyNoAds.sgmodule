@@ -1,10 +1,11 @@
 #!name=喜马拉雅听去广告
-#!desc=根据V9.0.96抓包获取，其他版本自测。广告相关请求基本为IP地址，随时会改变  IP-CIDR,114.80.99.82/24,REJECT,no-resolve 
+#!desc=根据V9.0.96抓包获取，其他版本自测。广告相关请求基本为IP地址，随时会改变  
 
 [Rule]
 
 #详情页广告和重返APP广告
 IP-CIDR,180.153.250.244/24,REJECT,no-resolve
+IP-CIDR,114.80.99.82/24,REJECT,no-resolve 
 IP-CIDR,114.80.139.237/13,REJECT,no-resolve
 URL-REGEX,^https?:\/\/mermaid\.ximalaya\.com\/config\/ts\/v2\/tracks\/cdn\/1\/ios\?v=v2$,REJECT
 URL-REGEX,^https?:\/\/mobile\.ximalaya\.com\/football-portal\/diff2\/batch\?,REJECT

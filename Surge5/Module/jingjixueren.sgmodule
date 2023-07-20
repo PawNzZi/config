@@ -1,0 +1,9 @@
+
+#经济学人商论订阅破解
+
+[Script]
+# > 经济学人商论订阅破解
+经济学人商论订阅破解 = type=http-response,requires-body=1,max-size=0,timeout=10,pattern=^https:\/\/api\.hummingbird\.businessreview\.global\/api\/subscriptions\/get_active,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjxrsl.js
+
+[MITM]
+hostname = %APPEND% api.hummingbird.businessreview.global
